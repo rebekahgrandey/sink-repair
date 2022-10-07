@@ -1,20 +1,59 @@
 {
-    "plumbers": [],
-    "completions": [],
-    "requests": [
-        {
-            "id": 1,
-            "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
-            "address": "34445 Bianka Ports",
-            "budget": 400,
-            "neededBy": "2021-08-27"
-        },
-        {
-            "id": 2,
-            "description": "The drain is clogged and smells bad",
-            "address": "123 George Circle",
-            "budget": 100,
-            "neededBy": "2022-10-01"
-        }
-    ]
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "Maude"
+    },
+    {
+      "id": 2,
+      "name": "Merle"
+    }
+  ],
+  "completions": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
+      "address": "34445 Bianka Ports",
+      "budget": 400,
+      "neededBy": "2021-08-27"
+    },
+    {
+      "id": 2,
+      "description": "The drain is clogged and smells bad",
+      "address": "123 George Circle",
+      "budget": 100,
+      "neededBy": "2022-10-01"
+    },
+    {
+      "description": "Rusted faucet",
+      "address": "203 Walker Road",
+      "budget": "100",
+      "neededBy": "2022-10-27",
+      "id": 10
+    },
+    {
+      "description": "Faucet button is broken",
+      "address": "200 Greenwood St",
+      "budget": "75.00",
+      "neededBy": "2022-10-19",
+      "id": 11
+    }
+  ]
 }
